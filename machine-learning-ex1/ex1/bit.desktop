@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bitcoin Obsessed
+Exec=bitcoin_obsessed.sh
+Terminal=true
+Type=Application
+Icon=terminal
+StartupNotify=true
+Actions=ContextMenu1;ContextMenu2
+
+[Desktop Action ContextMenu1]
+Name=Run script 1
+Exec=myscript_1.sh
