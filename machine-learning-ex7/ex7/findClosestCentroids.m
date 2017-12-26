@@ -21,7 +21,7 @@ function idx = findClosestCentroids(X, centroids)
   % Note: You can use a for-loop over the examples to compute this.
   %      % length = sqrt( ( centroids(j, :)(1) - X(i,:)(1) ^ 2) + ( ( centroids(i,:)(2) - X(i,:)(2) ) ^ 2));
 
-  for i = 1:length(X)
+  for i = 1:size(X)(1)
       % Vectorised
       [ a, idx(i) ] = min(sqrt(sum( (centroids - X(i,:) ) .^ 2, 2) ) );
   end
