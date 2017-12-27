@@ -25,10 +25,16 @@ function centroids = computeCentroids(X, idx, K)
   %
   % Note: You can use a for-loop over the centroids to compute this.
   % Could vectorise this
-  for i = 1:size(centroids,1)
-    tmp = (idx == i) .* X;
-    tmp( ~any(tmp, 2), : ) = [];
-    centroids(i, :) = sum(tmp) / length(tmp);
+  % for i = 1:K
+  %   tmp = (idx == i) .* X;
+  %   tmp( ~any(tmp, 2), : ) = [];
+  %   centroids(i, :) = sum(tmp) / length(tmp);
+  % end
+
+  for i = 1:K
+    c_i = (idx == i);
+    X_c_i = X .* repmat(c_i,1,n);
+    centroids(i,:) = sum(X_c_i) ./ sum(c_i);
   end
 end
 
