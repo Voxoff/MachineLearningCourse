@@ -45,19 +45,16 @@ function [J, grad] = cofiCostFunc(params, Y, R, num_users, num_movies, ...
   % Theta = [ones(1,size(X,2)); Theta]
   matrix = ( ( ( X * Theta') - Y ) .* R);
   J = 0.5 * sum( sum( ( ( ( X * Theta' ) - Y ) .* R ) .^ 2 ) );
-  X_grad = sum( sum( matrix * Theta));
-  % Theta_grad = sum( sum( matrix * X));
-  % sum across users j, if theyve rated movie i. 
-  % X_grad = sum( ( ( X * Theta' ) - Y ) * Theta);
-  
-  % Theta_grad = sum( ( ( X * Theta' ) - Y ) * X);
+  X_grad = matrix * Theta;
+  Theta_grad = matrix' * X;
 
-
-  % for i = 1:num_movies
-  %   for k = 1:num_features
-  %     for j = 1:num_users
+  % Non vectorised implementation below:
+  % for i = 1:num_movies % 5
+  %   for k = 1:num_features % 3
+  %     for j = 1:num_users % 4
   %       if R(i,j) == 1
-  %         X_grad(i,k) = X_grad (i,k) + ((X(i,1:end) * Theta(j,1:end)') - Y(i,j) * Theta(j,k))
+  %         X_grad(i,k) += ( ( ( X(i,:) * Theta(j,:)' ) - Y(i,j) ) * Theta(j,k) );
+  %         Theta_grad(j,k) += ( ( (X(i,:) * Theta(j,:)') - Y(i,j) )* X(i,k) );
   %       end
   %     end
   %   end
