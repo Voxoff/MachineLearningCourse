@@ -43,8 +43,12 @@ function [J, grad] = cofiCostFunc(params, Y, R, num_users, num_movies, ...
   % Y(:,1) all ratings for user one
   % Theta(1,:) all params for user one
   % Theta = [ones(1,size(X,2)); Theta]
+
+
   matrix = ( ( ( X * Theta') - Y ) .* R);
   J = 0.5 * sum( sum( ( ( ( X * Theta' ) - Y ) .* R ) .^ 2 ) );
+  J += (lambda / 2) * sum( sum(Theta .^ 2));
+  J += (lambda / 2) * sum( sum( X .^ 2 ));
   X_grad = matrix * Theta;
   Theta_grad = matrix' * X;
 
