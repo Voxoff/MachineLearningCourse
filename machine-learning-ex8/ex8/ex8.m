@@ -67,7 +67,7 @@ ylabel('Throughput (mb/s)');
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
-
+  
 %% ================== Part 3: Find Outliers ===================
 %  Now you will find a good epsilon threshold using a cross-validation set
 %  probabilities given the estimated Gaussian distribution
