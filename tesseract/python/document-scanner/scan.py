@@ -99,7 +99,9 @@ cv2.imshow("Scanned", imutils.resize(warped_adaptive, height=650))
 # no part of the image is cut off
 # for angle in np.arange(0, 360, 90):
 rotated = imutils.rotate_bound(warped_adaptive, -90)
-cv2.imshow("Rotated (Correct)", imutils.resize(rotated, height=650))
+rotated = imutils.resize(rotated, height=650)
+cv2.imshow("Rotated (Correct)", rotated )
+cv2.imwrite(final, rotated)
   # cv2.waitKey(0)
 # rows,cols = warped_adaptive.shape
 # M = cv2.getRotationMatrix2D((cols/2, rows/2), 90, 1)
