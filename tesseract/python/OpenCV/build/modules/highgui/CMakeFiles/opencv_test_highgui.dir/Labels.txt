@@ -1,0 +1,18 @@
+# Target labels
+ Main
+ opencv_highgui
+ AccuracyTest
+# Source files and their labels
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/modules/highgui/test/test_gui.cpp
+ Main
+ opencv_highgui
+ AccuracyTest
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/modules/highgui/test/test_main.cpp
+ Main
+ opencv_highgui
+ AccuracyTest
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/modules/highgui/test/test_precomp.hpp
+ Main
+ opencv_highgui
+ AccuracyTest
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/modules/highgui/opencv_test_highgui_autogen/mocs_compilation.cpp

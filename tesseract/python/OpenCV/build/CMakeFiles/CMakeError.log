@@ -1,0 +1,238 @@
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e3f7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e3f7.dir/build.make CMakeFiles/cmTC_5e3f7.dir/build
+make[1]: Entering directory '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e3f7.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -o CMakeFiles/cmTC_5e3f7.dir/src.cxx.o -c /home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_5e3f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e3f7.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_5e3f7.dir/src.cxx.o  -o cmTC_5e3f7 
+make[1]: Leaving directory '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0d130/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0d130.dir/build.make CMakeFiles/cmTC_0d130.dir/build
+make[1]: Entering directory '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0d130.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -o CMakeFiles/cmTC_0d130.dir/src.cxx.o -c /home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_0d130
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d130.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_0d130.dir/src.cxx.o  -o cmTC_0d130 
+make[1]: Leaving directory '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2fcdc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2fcdc.dir/build.make CMakeFiles/cmTC_2fcdc.dir/build
+make[1]: Entering directory '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2fcdc.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTC_2fcdc.dir/src.c.o   -c /home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_2fcdc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fcdc.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_2fcdc.dir/src.c.o  -o cmTC_2fcdc 
+make[1]: Leaving directory '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e4b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e4b0.dir/build.make CMakeFiles/cmTC_5e4b0.dir/build
+make[1]: Entering directory '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e4b0.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_5e4b0.dir/src.c.o   -c /home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_5e4b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e4b0.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_5e4b0.dir/src.c.o  -o cmTC_5e4b0 
+make[1]: Leaving directory '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_08834/fast"
+/usr/bin/make -f CMakeFiles/cmTC_08834.dir/build.make CMakeFiles/cmTC_08834.dir/build
+make[1]: Entering directory '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_08834.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_08834.dir/src.cxx.o -c /home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_08834
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08834.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_08834.dir/src.cxx.o  -o cmTC_08834 
+make[1]: Leaving directory '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_61d6e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61d6e.dir/build.make CMakeFiles/cmTC_61d6e.dir/build
+make[1]: Entering directory '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61d6e.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_61d6e.dir/src.c.o   -c /home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.c
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_61d6e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61d6e.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_61d6e.dir/src.c.o  -o cmTC_61d6e 
+make[1]: Leaving directory '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e5ec7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e5ec7.dir/build.make CMakeFiles/cmTC_e5ec7.dir/build
+make[1]: Entering directory '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5ec7.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTC_e5ec7.dir/src.c.o   -c /home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_e5ec7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5ec7.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_e5ec7.dir/src.c.o  -o cmTC_e5ec7 
+make[1]: Leaving directory '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9622f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9622f.dir/build.make CMakeFiles/cmTC_9622f.dir/build
+make[1]: Entering directory '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9622f.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_9622f.dir/CheckIncludeFile.c.o   -c /home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: linux/videodev.h: No such file or directory
+ #include <linux/videodev.h>
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_9622f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9622f.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_9622f.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9622f/fast' failed
+make: *** [cmTC_9622f/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_29e4e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_29e4e.dir/build.make CMakeFiles/cmTC_29e4e.dir/build
+make[1]: Entering directory '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29e4e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_29e4e.dir/CheckIncludeFile.c.o   -c /home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_29e4e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_29e4e.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_29e4e.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_29e4e/fast' failed
+make: *** [cmTC_29e4e/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’'
+Compilation failed:
+    source file: '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-private-field'
+===== BUILD LOG =====
+Change Dir: /home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a1f7c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a1f7c.dir/build.make CMakeFiles/cmTC_a1f7c.dir/build
+make[1]: Entering directory '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a1f7c.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual  -O3 -DNDEBUG   -Wno-unused-private-field -o CMakeFiles/cmTC_a1f7c.dir/src.cxx.o -c /home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’
+Linking CXX executable cmTC_a1f7c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1f7c.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual  -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_a1f7c.dir/src.cxx.o  -o cmTC_a1f7c 
+make[1]: Leaving directory '/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+

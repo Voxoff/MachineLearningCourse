@@ -1,0 +1,45 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/modules/highgui/test/test_gui.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/modules/highgui/test/test_main.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/modules/highgui/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/modules/highgui/opencv_test_highgui_autogen/mocs_compilation.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_highgui",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_highgui"
+	}
+}

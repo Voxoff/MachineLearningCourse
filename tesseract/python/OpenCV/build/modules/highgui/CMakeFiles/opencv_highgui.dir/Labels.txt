@@ -1,0 +1,41 @@
+# Target labels
+ Main
+ opencv_highgui
+ Module
+# Source files and their labels
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/modules/highgui/include/opencv2/highgui.hpp
+ Main
+ opencv_highgui
+ Module
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/modules/highgui/include/opencv2/highgui/highgui.hpp
+ Main
+ opencv_highgui
+ Module
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/modules/highgui/include/opencv2/highgui/highgui_c.h
+ Main
+ opencv_highgui
+ Module
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/modules/highgui/src/window.cpp
+ Main
+ opencv_highgui
+ Module
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/modules/highgui/src/window_QT.cpp
+ Main
+ opencv_highgui
+ Module
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/modules/highgui/src/window_QT.h
+ Main
+ opencv_highgui
+ Module
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/modules/highgui/qrc_window_QT.cpp
+ Main
+ opencv_highgui
+ Module
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/modules/highgui/src/precomp.hpp
+ Main
+ opencv_highgui
+ Module
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/cvconfig.h
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/opencv2/opencv_modules.hpp
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/build/modules/highgui/opencv_highgui_autogen/mocs_compilation.cpp
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/modules/highgui/src/window_QT.qrc

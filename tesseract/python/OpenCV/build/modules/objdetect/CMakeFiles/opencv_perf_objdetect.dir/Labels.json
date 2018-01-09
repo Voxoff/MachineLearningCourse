@@ -1,0 +1,51 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/modules/objdetect/perf/opencl/perf_cascades.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/modules/objdetect/perf/opencl/perf_hogdetect.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/modules/objdetect/perf/perf_main.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/modules/objdetect/perf/perf_precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"PerfTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_objdetect",
+			"PerfTest"
+		],
+		"name" : "opencv_perf_objdetect"
+	}
+}

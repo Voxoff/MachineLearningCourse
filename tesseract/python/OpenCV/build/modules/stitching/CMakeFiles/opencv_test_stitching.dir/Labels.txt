@@ -1,0 +1,25 @@
+# Target labels
+ Main
+ opencv_stitching
+ AccuracyTest
+# Source files and their labels
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/modules/stitching/test/ocl/test_warpers.cpp
+ Main
+ opencv_stitching
+ AccuracyTest
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/modules/stitching/test/test_blenders.cpp
+ Main
+ opencv_stitching
+ AccuracyTest
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/modules/stitching/test/test_main.cpp
+ Main
+ opencv_stitching
+ AccuracyTest
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/modules/stitching/test/test_matchers.cpp
+ Main
+ opencv_stitching
+ AccuracyTest
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/modules/stitching/test/test_precomp.hpp
+ Main
+ opencv_stitching
+ AccuracyTest

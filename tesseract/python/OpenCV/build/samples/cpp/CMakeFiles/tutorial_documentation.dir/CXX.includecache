@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/guy/code/Voxoff/machineLearning/tesseract/python/OpenCV/samples/cpp/tutorial_code/introduction/documentation/documentation.cpp
+iostream
+-
+
