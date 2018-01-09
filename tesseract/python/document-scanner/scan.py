@@ -30,7 +30,7 @@ gray = cv2.GaussianBlur(gray, (5, 5), 0)
 edged = cv2.Canny(gray, 75, 200)
 
 # show the original image and the edge detected image
-print "STEP 1: Edge Detection"
+# print "STEP 1: Edge Detection"
 cv2.imshow("Image", image)
 cv2.imshow("Edged", edged)
 # cv2.waitKey(0)
@@ -46,7 +46,7 @@ cnts = sorted(cnts, key = cv2.contourArea, reverse = True)[:5]
 for c in cnts:
 	# approximate the contour
 	peri = cv2.arcLength(c, True)
-	approx = cv2.approxPolyDP(c, 0.02 * peri, True)
+	approx = cv2.approxPolyDP(c, 0.08 * peri, True)
 
 	# if our approximated contour has four points, then we
 	# can assume that we have found our screen
@@ -55,7 +55,7 @@ for c in cnts:
 		break
 
 # show the contour (outline) of the piece of paper
-print "STEP 2: Find contours of paper"
+# print "STEP 2: Find contours of paper"
 cv2.drawContours(image, [screenCnt], -1, (0, 255, 0), 2)
 cv2.imshow("Outline", image)
 # cv2.waitKey(0)
@@ -83,28 +83,31 @@ block_size = 35
 warped = threshold_local(warped_gray, block_size, offset=10)
 warped_adaptive = (warped_gray > warped).astype("uint8")*255
 
-print("STEP 3: Apply perspective transform")
+# print("STEP 3: Apply perspective transform")
 
 cv2.imshow("Original", imutils.resize(orig, height=650))
 cv2.imshow("Scanned", imutils.resize(warped_adaptive, height=650))
+# cv2.imwrite("final.png", warped_adaptive)
+
 
 # Rotate because it's always facing right, but keep corners
-# loop over the rotation angles
-# for angle in np.arange(0, 360, 15):
-#   rotated = imutils.rotate(warped_adaptive, angle)
-#   cv2.imshow("Rotated (Problematic)", rotated)
-#   cv2.waitKey(0)
- 
-# loop over the rotation angles again, this time ensuring
-# no part of the image is cut off
-# for angle in np.arange(0, 360, 90):
 rotated = imutils.rotate_bound(warped_adaptive, -90)
 rotated = imutils.resize(rotated, height=650)
 cv2.imshow("Rotated (Correct)", rotated )
 cv2.imwrite("final.png", rotated)
-  # cv2.waitKey(0)
+
 # rows,cols = warped_adaptive.shape
 # M = cv2.getRotationMatrix2D((cols/2, rows/2), 90, 1)
 # dst = cv2.warpAffine(warped_adaptive, M, (cols,rows))
 # cv2.imshow("Scanned", imutils.resize(dst, height=650))
-# cv2.waitKey(0)
+
+
+while True:
+    #key = cv2.waitKey(33) #this won't work
+    #key = 0xFF & cv2.waitKey(33) #this is ok
+    key = np.int16(cv2.waitKey(33)) #this is ok [2]
+ 
+    if key == 27:
+        break
+    else:
+        print key, hex(key), key % 256
